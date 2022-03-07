@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería única</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pastelería la única</h1>
+    </header>
+    <hr>
+        
+    
+    <h2>Datos del pedido</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <label for="tel1">Teléfono</label>
+        <input type="tel" id="tel1" name="tel1" maxlength="10">
+        <br><br>
+        <label for="correo1">Correo electrónico</label>
+        <input type="email" id="correo1" name="correo1">
+        <br><br>
+        <label for="descripcion">Descripcion</label><br>
+        <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+    
+    
+    
+    
+        <h3>Elegir sabores</h3><br>
+                <input type="radio" id="uno" name="sabores" value="Uno">
+                <label for="uno">Un Sabor</label><br>
+                    <label for="sabor1">Sabor1</label>
+                    <select id="sabor1" name="sabor1">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select><br><br>
+
+
+                <input type="radio" id="dos" name="sabores" value="Dos">
+                <label for="dos">Dos Sabores</label>
+                <br>
+                    <label for="sabor1">Sabor1</label>
+                    <select id="sabor1" name="sabor1">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select>
+                    <br>
+                    <label for="sabor2">Sabor2</label>
+                    <select id="sabor2" name="sabor2">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select>
+                    <br><br>
+                <input type="radio" id="tres" name="sabores" value="Tres">
+                <label for="tres">Tres Sabores</label>
+                <br>
+                    <label for="sabor1">Sabor1</label>
+                    <select id="sabor1" name="sabor1">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select>
+                    <br>
+                    <label for="sabor2">Sabor2</label>
+                    <select id="sabor2" name="sabor2">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select>
+                    <br>
+                    <label for="sabor3">Sabor3</label>
+                    <select id="sabor3" name="sabor3">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                        <option value="napolitano">Napolitano</option>
+                    </select>
+                    <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <hr>
+    <footer>
+        <p>Pastelería la única</p>
+        <p>Avenida Siempre viva #1595, colonia Hola mundo, Springfield<br>
+            Horarios de atención<br>
+            Lunes a Sabado de 8:00am a 10:00pm</p>
+        <ul>
+            <li>Telefono: 555-987-12-18</li>
+            <li>Correo: peidos@pasteleriaunica.mx</li>
+            <li>Facebook:</li>
+            <li>Instagram:</li>
+            <li>Whatsapp: </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
